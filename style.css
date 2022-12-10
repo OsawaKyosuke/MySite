@@ -1,0 +1,406 @@
+@charset "utf-8";
+
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+background-color: #d6e3ed5e;
+}
+img {
+    max-width: 100%;
+    height: atuo;
+}
+iframe{
+    max-width: 100%;
+    max-height: atuo;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration:none; 
+}
+
+/*ヘッダー*/
+.header{
+    background-color: white;
+    padding: 4px 0px 4px 20px;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 40px 3px rgb(195, 192, 192);
+    display: flex;
+    
+}
+.header p{
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    font-weight:bold;
+    letter-spacing: 0.2em;
+}
+.header ul{
+    display: flex;
+}
+.header li{
+    font-size: 18px;
+    padding: 4px 0px 0px 40px;
+    color: black;
+    font-weight: bold;
+}
+/*キャッチ*/
+.catch {
+    text-align: center;
+    margin: 160px 40px 0px 40px;
+    
+}
+.catch img{
+    box-shadow: 5px 5px 40px 3px rgb(164, 162, 162);
+    border-radius: 40px;
+}
+.catch p{
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+.catch span{
+    font-size: 25px;
+}
+
+
+
+/*モデリング*/
+.modeling{
+    background-color: white;
+    margin: 300px 30px 0px 30px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 40px 3px rgb(164, 162, 162);
+}
+.first{
+    display: flex;
+
+}
+.first img{
+    width: 70px;
+    
+}
+.mini{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0px 110px 20px;
+}
+h1{
+    font-size: 50px;
+    margin: 30px 0px 30px 20px;
+    color: black;
+    letter-spacing: 0.1em;
+}
+
+.imglist{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.content{
+    background-color: white ;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    box-shadow: 5px 5px 40px 3px rgba(164, 162, 162, 0.36);
+   
+}
+.content img{
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 40px 3px rgba(164, 162, 162, 0.438);
+}
+.content p{
+    font-weight: bold;
+}
+
+/*アプリ*/
+.second{
+    display: flex;
+}
+.second img{
+    width: 70px; height: 70px;
+    margin: 40px 0px 0px 0px;
+}
+.appFl{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.apps{
+    background-color: white;
+    margin: 160px 30px 0px 30px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 40px 3px rgb(164, 162, 162);
+
+}
+.app{
+    background-color: white;
+    margin: 0px 50px 50px 0px;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 5px 5px 40px 3px rgba(164, 162, 162, 0.681);
+    padding: 10px 120px 10px 12px;
+}
+
+.app img{
+    width: 120px;
+    margin: 30px;
+    
+}
+
+
+.app p{
+    margin: 60px 0px 0px 0px ;
+    color: black;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.app span{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/*プロフィール*/
+.pro{
+    background-color: white;
+    margin: 160px 30px 0px 30px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 40px 3px rgb(164, 162, 162);
+}
+
+.third{
+    display: flex;
+}
+.third img{
+    width: 100px; height: 100px;
+    margin: 20px 0px 0px 0px;
+}
+.base{
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 5px 5px 40px 3px rgb(164, 162, 162);
+    margin: 0px 30px 90px 30px;
+}
+.flex{
+    display: flex;
+}
+.name{
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    
+}
+.block{
+    margin: 20px 170px 20px 10px;
+}
+.skillName{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 0px 0px 0px;
+}
+.skills{
+    margin: 20px 0px 0px 0px;
+    font-size: 19px;
+}
+.skills p{
+    color: rgb(11, 133, 200);
+}
+
+.footer{
+    background-color: black;
+    padding: 100px 30px 100px 0px;
+    text-align: center;
+    box-shadow: 5px 5px 40px 3px rgb(164, 162, 162);
+    margin: 300px 0px 0px 0px;
+    color: white;
+    font-size: 30px;
+}
+/*サイズ1*/
+@media all and (max-width:1524px){
+
+
+
+.catch {
+    text-align: center;
+    margin: 100px 30px 0px 30px;
+    
+}
+.catch img{
+    margin: 70px 0px 0px 0px;
+    box-shadow: 5px 5px 40px 3px rgb(164, 162, 162);
+    border-radius: 30px;
+}
+.catch p{
+    letter-spacing: 0.2em;
+font-size: 13px;
+}
+.catch span{
+    font-size: 17px;
+}
+.first{
+    display: block;
+}
+.first img{
+    margin: 10px 0px 0px 7px;
+}
+h1{
+    font-size: 35px;
+    margin: 50px 20px 80px 10px;
+    color: black;
+  
+}
+.content{
+    
+    margin: 20px;
+}
+.content img{
+    width: 500px;
+}
+  .modeling{
+    background-color: white;
+    margin: 300px 20px 0px 20px;
+}
+
+.second{
+    display: block;
+}
+.second img{
+    margin: 10px 0px 0px 7px;
+}
+.apps{
+    background-color: white;
+    margin: 140px 20px 0px 20px;
+}
+.app{
+    background-color: white;
+    margin: 0px 50px 50px 50px;
+    padding: 30px 70px 30px 40px;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 5px 5px 40px 3px rgba(164, 162, 162, 0.681);
+}
+
+.app span{
+    font-weight: bold;
+    font-size: 19px;
+    margin: 0px 20px 0px 0px;
+}
+
+.mini{
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0px 20px 110px 20px;
+}
+
+.flex{
+    display: block;
+}
+.third{
+    display: block;
+}
+.third img{
+    margin: 10px 0px 0px 0px;
+}
+.block{
+    margin: 30px;
+}
+.skillBlock{
+    margin: 30px;
+}
+
+}
+
+/*縦向きタブレット*/
+@media all and (min-width: 480px) and (max-width:768px){
+.flex{
+    display: block;
+}
+
+}
+/*スマホ*/
+@media all and (max-width:600px){
+
+ .base{
+    margin: 0px;
+    padding: 10px;
+ }
+ .header li{
+    display:  none;
+ }
+ h1{
+    font-size: 35px;
+    margin: 50px 20px 80px 10px;
+    color: black;
+  
+}
+
+.app img{
+    width: 60px; height: 60px;
+    margin: 6px 60px 0px 0px;
+    
+}
+
+.app p{
+    margin: 6px 0px 0px 10px ;
+    color: black;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+
+.app{
+    background-color: white;
+    margin: 0px 50px 50px 50px;
+    padding: 30px 70px 30px 40px;
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 5px 5px 40px 3px rgba(164, 162, 162, 0.681);
+}
+
+
+.block{
+    font-size: 10px;
+}
+.skills{
+    font-size: 9px;
+}
+.name{
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    
+}
+
+.skillName{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 30px 0px 0px 0px;
+}
+.skills{
+    margin: 20px 0px 0px 0px;
+    font-size: 13px;
+}
+.skills p{
+    color: rgb(11, 133, 200);
+}
+.footer{
+    background-color: black;
+    padding: 40px 20px 40px 0px;
+    text-align: center;
+    box-shadow: 5px 5px 40px 3px rgb(164, 162, 162);
+    margin: 70px 0px 0px 0px;
+    color: white;
+    font-size: 20px;
+}
+}
